@@ -9,7 +9,7 @@ fi
 
 DOWNLOAD_URL="http://projects.iq.harvard.edu/files/fits/files/fits-${FITS_VERSION}.zip"
 cd $DOWNLOAD_DIR
-sudo curl $DOWNLOAD_URL > fits.zip
+curl -o fits.zip $DOWNLOAD_URL
 unzip fits.zip
 chmod a+x fits-$FITS_VERSION/*.sh
 cd fits-$FITS_VERSION/

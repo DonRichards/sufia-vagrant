@@ -11,16 +11,16 @@ fi
 cd $HOME_DIR
 
 # Update
-apt-get -y update && apt-get -y upgrade
+apt-get -qq update && apt-get -qq upgrade
 
 # SSH
-apt-get -y install openssh-server
+apt-get -qq install openssh-server
 
 # Build tools
-apt-get -y install build-essential
+apt-get -qq install build-essential
 
 # Git vim
-apt-get -y install git vim
+apt-get -qq install git vim
 
 # Wget and curl
-apt-get -y install wget curl
+apt-get -qq install wget curl
