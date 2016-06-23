@@ -1,5 +1,7 @@
 # sufia-vagrant
 
+*N.B.* This is not likely to be maintained, so if you're interested in using this, please do feel free to submit pull requests!
+
 ## Requirements
 
 * [Vagrant](https://www.vagrantup.com/)
